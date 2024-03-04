@@ -1,0 +1,33 @@
+from fastapi import FastAPI
+from ravendb import RavenDB
+from pydantic import BaseModel
+
+app = FastAPI()
+
+class BankData(BaseModel):
+    bank_name: str
+    data: str
+
+# Initialize RavenDB
+urls = ["http://localhost:8080"]
+database = "BankData"
+raven = RavenDB(urls, database)
+
+# FastAPI endpoint to scrape data from URLs and store in RavenDB
+@app.post("/scrape/")
+async def scrape_and_store_data(data: BankData):
+    with raven.open_session() as session:
+        session.store(data.dict(), collection_name="BankData")
+        session.save_changes()
+        return {"message": "Data scraped and stored successfully"}
+
+# FastAPI endpoint to retrieve data from RavenDB
+@app.get("/data/")
+async def get_data():
+    with raven.open_session() as session:
+        data = session.query(collection_name="BankData").all()
+        return data
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
