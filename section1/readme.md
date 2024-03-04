@@ -48,8 +48,10 @@ Le projet est structuré comme suit :
 ```
 .
 ├── twitter_scraper.py
-├── requirements.txt
-└── twitter_scraper.log
+├── api.py
+├── scedule.py
+├── twitter_scraper.log
+└── requirements.txt 
 ```
 
 - `twitter_scraper.py` : Fichier Python principal contenant le code du scraper et de l'API FastAPI.
