@@ -372,13 +372,13 @@ Exemple de sortie JSON pour un tweet :
 
 ```json
 {
-  "id": "1234567890",
-  "tweet_body": "Ceci est un exemple de tweet extrait par le scraper.",
-  "tweet_date": "23 mai 2023",
-  "retweet": "42",
-  "mention": "12",
-  "like": "237",
-  "url": "https://twitter.com/CompteExemple/status/1234567890"
+  "id": "1763611561493491828",
+  "tweet_body": "We asked you for your questions on investing, and now it’s time for Rolandas Juteiak, our Head of Trading (EEA), to give you our top tips ",
+  "tweet_date": "6:05 PM · Mar 1, 2024",
+  "retweet": "9,383",
+  "mention": "3",
+  "like": "21",
+  "url": "https://twitter.com/RevolutApp/status/1763611561493491828"
 }
 ```
 
