@@ -44,7 +44,8 @@ def get_tweets(account_url: HttpUrl):
 
 # Route pour obtenir les détails d'un tweet
 @app.get("/tweet/", response_model=TweetDetails)
-def get_tweet_details(tw_id: str = "1763611561493491828", base_url: str = "https://twitter.com/RevolutApp"):
+# default id : "1763611561493491828" , base_url : "https://twitter.com/RevolutApp"
+def get_tweet_details(
     return scraper.get_tweet_details(base_url, tw_id)
 
 # Exécution du serveur FastAPI

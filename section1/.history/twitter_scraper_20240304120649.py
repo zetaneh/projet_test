@@ -167,6 +167,3 @@ class TwitterScraper:
 
 # Exécution du scraper
         
-if __name__ == "__main__":
-    scraper = TwitterScraper(accounts)
-    scraper.run()
