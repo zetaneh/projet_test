@@ -1,0 +1,12 @@
+fastapi
+playwright
+pydantic
+uvicorn
+schedule
+
+# Liste des comptes Twitter à scraper
+accounts = [
+    "https://twitter.com/RevolutApp",
+    "https://twitter.com/mabanque_bnpp?lang=fr",
+    "https://twitter.com/Leocare_Assure"
+]

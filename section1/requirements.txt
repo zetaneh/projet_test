@@ -1,0 +1,6 @@
+fastapi
+playwright
+pydantic
+uvicorn
+schedule
+

@@ -1,0 +1,19 @@
+2024-03-04 11:38:49,139 - INFO - Scraping data for https://twitter.com/RevolutApp
+2024-03-04 11:38:55,858 - INFO - Data scraped for https://twitter.com/RevolutApp: username='RevolutApp' follower_count='374K'
+2024-03-04 11:38:56,160 - INFO - Scraping data for https://twitter.com/mabanque_bnpp?lang=fr
+2024-03-04 11:39:00,336 - INFO - Data scraped for https://twitter.com/mabanque_bnpp?lang=fr: username='mabanque_bnpp?lang=fr' follower_count='38,6\xa0k'
+2024-03-04 11:39:00,622 - INFO - Scraping data for https://twitter.com/Leocare_Assure
+2024-03-04 11:39:04,263 - INFO - Data scraped for https://twitter.com/Leocare_Assure: username='Leocare_Assure' follower_count='1,847'
+2024-03-04 11:39:04,551 - INFO - Scraping tweets for https://twitter.com/RevolutApp
+2024-03-04 11:39:39,851 - INFO - Scraped 7 tweets for https://twitter.com/RevolutApp
+2024-03-04 11:39:40,149 - INFO - Scraping data for https://twitter.com/RevolutApp/status/1441607006883968512
+2024-03-04 11:40:25,405 - INFO - Scraping data for https://twitter.com/RevolutApp
+2024-03-04 11:40:28,779 - INFO - Data scraped for https://twitter.com/RevolutApp: username='RevolutApp' follower_count='374K'
+2024-03-04 11:40:29,083 - INFO - Scraping data for https://twitter.com/mabanque_bnpp?lang=fr
+2024-03-04 11:40:32,519 - INFO - Data scraped for https://twitter.com/mabanque_bnpp?lang=fr: username='mabanque_bnpp?lang=fr' follower_count='38,6\xa0k'
+2024-03-04 11:40:32,806 - INFO - Scraping data for https://twitter.com/Leocare_Assure
+2024-03-04 11:40:37,138 - INFO - Data scraped for https://twitter.com/Leocare_Assure: username='Leocare_Assure' follower_count='1,847'
+2024-03-04 11:40:37,436 - INFO - Scraping tweets for https://twitter.com/RevolutApp
+2024-03-04 11:41:10,913 - INFO - Scraped 7 tweets for https://twitter.com/RevolutApp
+2024-03-04 11:41:11,234 - INFO - Scraping data for https://twitter.com/RevolutApp/status/1763611561493491828
+2024-03-04 11:41:15,248 - INFO - Data scraped for https://twitter.com/RevolutApp/status/1763611561493491828: id='1763611561493491828' tweet_body='We asked you for your questions on investing, and now it’s time for Rolandas Juteiak, our Head of Trading (EEA), to give you our top tips ' tweet_date='6:05 PM · Mar 1, 2024' retweet='9,354' mention='3' like='21' url='https://twitter.com/RevolutApp/status/1763611561493491828'

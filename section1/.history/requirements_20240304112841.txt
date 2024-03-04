@@ -1,0 +1,4 @@
+fastapi
+playwright
+pydantic=
+uvicorn==0.15.0
